@@ -15,7 +15,6 @@ export function TaskList() {
 
   function handleCreateNewTask() {
     if(!newTaskTitle){
-      alert("Insira um título para a sua task!");
       return;
     }
 
